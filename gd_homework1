@@ -1,0 +1,25 @@
+npm은 무엇인가요?
+- node package manager
+express는 무엇인가요?
+- WAS (Web Application Server)
+body-parser와 method-override는 무슨 역할을 하나요?
+- body-parser는 말그대로 body 데이터 파싱. 
+express에서 요청을 보낸 클라이언트에게 답을 전송하고 싶을 땐 어떻게 하나요?
+
+npm init 커맨드를 실행하면 무슨 파일들이 생성되나요?
+npm install 커맨드를 실행하면 무슨 일을 하나요?
+package.json 파일 안의 각 항목은 무엇을 의미 하나요?
+
+node.js에서의 require() 함수는 어디서 제일 먼저 파일을 찾나요? 어떤 파일을 찾나요?
+개인 프로젝트를 생성 하고, express, body-parser를 디펜던시에 추가해 보세요
+server.js 또는 아무 .js 파일을 만들어서 node server.js 등의 커맨드로 실행 시켜 보세요
+3번에서 만든 파일에 express를 이용한 http 서버를 3000 포트에 바인딩 시켜 실행 시켜 보세요
+그 전의 서버를 끈 뒤에, express가 body-parser를 사용할 수 있게 추가 해 보세요
+GET -> api/test 요청에 “Hello World!”를 반환하게 추가해 보세요
+POST -> api/users 요청
+username : string
+을 받아서 서버에 저장 해 보세요 (서버가 꺼지면 날아가도 상관 없습니다)
+GET -> api/users/:username 요청
+:username 을 받아서 서버에 있는 유저 중에서 검색하여 있다면 username을 반환하고 없다면 “No User”를 반환하게 해 보세요
+그 외의 다른 모든 요청에 대하여, 404 Page Not Found 를 반환하게 해 보세요
+코드를 본인의 GitHub 저장소를 생성하고, 해당 저장소에 푸시 해 보세요
