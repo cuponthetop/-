@@ -3,8 +3,9 @@ npm은 무엇인가요?
 express는 무엇인가요?
 - WAS (Web Application Server)
 body-parser와 method-override는 무슨 역할을 하나요?
-- body-parser는 말그대로 body 데이터 파싱. 
+- body-parser는 말그대로 body 데이터 파싱. method-overrid는 HTTP 메서드 재정의
 express에서 요청을 보낸 클라이언트에게 답을 전송하고 싶을 땐 어떻게 하나요?
+- res.send, res.render 등 response 이용해서 전달
 
 npm init 커맨드를 실행하면 무슨 파일들이 생성되나요?
 npm install 커맨드를 실행하면 무슨 일을 하나요?
