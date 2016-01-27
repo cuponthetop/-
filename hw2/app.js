@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var jade = require('jade');
 var bodyParser = require('body-parser');
+var override = require('method-override');
 
 var routes = require('./routes');
 
@@ -12,6 +13,8 @@ app.set('view engine', 'jade');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+
+app.use(override('X-HTTP-Method'));
 
 app.use('/', routes);
 
