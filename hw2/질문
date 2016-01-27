@@ -1,0 +1,22 @@
+
+1.	npm은 무엇인가요?
+Node package manager allows users to install packages for node.js
+2.	express는 무엇인가요?
+Node.js framework 
+3.	body-parser와 method-override는 무슨 역할을 하나요?
+Body parser is a middleware that parses the body of all incoming requests
+Method-override is a middleware that ‘overrides’ methods, allowing for http verbs where they are not allowed
+4.	express에서 요청을 보낸 클라이언트에게 답을 전송하고 싶을 땐 어떻게 하나요?
+app.get/router.get (‘/hello’, function(req, res, err, next) { res.send('xyz')/res.render(‘xyz’); });
+
+
+1.	npm init 커맨드를 실행하면 무슨 파일들이 생성되나요?
+package.json
+2.	npm install 커맨드를 실행하면 무슨 일을 하나요?
+Installs all dependencies
+3.	package.json 파일 안의 각 항목은 무엇을 의미 하나요?
+Name, description, version, script object, dependencies object
+
+
+1.	node.js에서의 require() 함수는 어디서 제일 먼저 파일을 찾나요? 어떤 파일을 찾나요?
+Node modules?
